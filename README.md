@@ -24,3 +24,8 @@ Features the user can see:
 - Informational pages for un-authenticated users.
 - Login page that uses Google (OpenID-Connect)
   - User is stored in Postgres.
+
+---
+Running locally
+
+Run `docker-compose up` to start the Postgres container and the ui.
