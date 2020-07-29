@@ -4,15 +4,15 @@ This boilerplate project will be the starting point for other apps.
 
 Technologies:
 
-- NextJS + React + Typescript
-- Google authentication (OpenID-Connect)
-- Redux
-- Styled Components
-- UI testing: Cypress
-- Unit testing: Mocha, Chai, Sinon
-- Data access layer: simple REST-style api exposed by nextjs api routes.
-- Database: Postgres
-- Hosting infrastructure: Docker with K8s (for maximum flexibility)
+- [ ] NextJS + React + Typescript
+- [ ] Google authentication (OpenID-Connect)
+- [ ] Redux
+- [x] Styled Components
+- [ ] UI testing: Cypress
+- [ ] Unit testing: Mocha, Chai, Sinon
+- [ ] Data access layer: simple REST-style api exposed by nextjs api routes.
+- [ ] Database: Postgres
+- [ ] Hosting infrastructure: Docker with K8s (for maximum flexibility)
 
 Features the user can see:
 
