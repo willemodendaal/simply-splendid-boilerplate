@@ -4,9 +4,10 @@ This boilerplate project will be the starting point for other apps.
 
 Technologies:
 
-- [ ] NextJS + React + Typescript
-- [ ] Google authentication (OpenID-Connect)
+- [x] NextJS + React + Typescript
+- [ ] Google authentication (OpenID-Connect or [OneTap](https://developers.google.com/identity/one-tap/web/guides/get-google-api-clientid))
 - [ ] Redux
+- [ ] Material-UI components
 - [x] Styled Components
 - [ ] UI testing: Cypress
 - [ ] Unit testing: Mocha, Chai, Sinon
