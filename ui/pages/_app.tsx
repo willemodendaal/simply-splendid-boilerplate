@@ -1,9 +1,13 @@
 // import App from "next/app";
 import type { AppProps /*, AppContext */ } from 'next/app'
 import React from "react";
+import { StylesProvider } from '@material-ui/styles';
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }: AppProps)    {
+  // We use StylesProvider(injectFirst) to ensure that styled-components and material-ui play well together.
+  return <StylesProvider injectFirst>
+    <Component {...pageProps} />
+  </StylesProvider>
 }
 
 // Only uncomment this method if you have blocking data requirements for
